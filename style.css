@@ -1,0 +1,19 @@
+body {
+    background-color: #D6EEFF; /* #628395 #96897B #DBAD6A #CF995F #D0CE7C https://coolors.co/ */
+    margin: 10%;
+    text-align: center;
+    color: #8E5572;
+    font-family: courier new;
+}
+
+a {
+    padding: 3%;
+    margin: 2%;
+    color: #443850;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #cceaff;
+}
