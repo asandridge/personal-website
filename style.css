@@ -1,19 +1,32 @@
 body {
-    background-color: #D6EEFF; /* #628395 #96897B #DBAD6A #CF995F #D0CE7C https://coolors.co/ */
-    margin: 10%;
+    background-color: #35393C; /* #628395 #96897B #DBAD6A #CF995F #D0CE7C https://coolors.co/ */
+    margin: 5% 10%;
     text-align: center;
-    color: #8E5572;
+    color: #63CCCA;
     font-family: courier new;
 }
 
 a {
+    font-size: 200%;
     padding: 3%;
     margin: 2%;
-    color: #443850;
+    color: #5DA399;
     font-weight: bold;
     text-decoration: none;
 }
 
 a:hover {
     background-color: #cceaff;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+p {
+    font-size: 150%;
 }
