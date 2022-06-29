@@ -1,0 +1,7 @@
+{layout="site/_wrapper"}
+{exp:channel:entries channel="pages" limit="1" url_title="{if segment:page}{segment:page}{if:else}home{/if}"}
+  {if no_results} {redirect="404"} {/if}
+  {layout:set name='title'}{title}{/layout:set}
+
+  {page_content}
+{/exp:channel:entries}

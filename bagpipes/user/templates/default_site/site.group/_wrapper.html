@@ -3,7 +3,12 @@
 
   <head>
     <link rel="stylesheet" type="text/css" href="/assets/styles.css">
-    <title>{layout:title}</title>
+
+    {if layout:title}
+      <title>Alex Sandridge | {layout:title}</title>
+    {if:else}
+      <title>Alex Sandridge</title>
+    {/if}
   </head>
 
   <body style="height: 100%; width: 100%">
