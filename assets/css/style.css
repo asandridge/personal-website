@@ -1,0 +1,25 @@
+:root {
+	--fg: #ccc ;
+	--behind: linear-gradient(#121224,dodgerblue) fixed ;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Varela Round', sans-serif;
+	background: var(--behind) ;
+	color: var(--fg) ;
+	margin-bottom: 200px ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+	color: var(--fg);
+}
